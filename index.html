@@ -282,6 +282,34 @@
           opacity: 1;
         }
       }
+      /* --- 모바일 및 태블릿 최적화 (style 태그 맨 아래 추가) --- */
+      @media (max-width: 768px) {
+        #intro {
+          font-size: 2.5rem;
+          letter-spacing: 6px;
+        }
+        .book {
+          width: 220px;
+          padding: 15px;
+        }
+        .cover {
+          height: 280px;
+        }
+        .page {
+          width: 92%;
+          height: 78vh;
+          padding: 40px 20px; /* 모바일 전용 여백 */
+          line-height: 1.9;
+          font-size: 15px;
+        }
+        .page-title {
+          font-size: 1.4rem;
+          margin-bottom: 25px;
+        }
+        .controls {
+          gap: 15px;
+        }
+      }
     </style>
   </head>
 
@@ -318,8 +346,10 @@
         <p>
           이 시집은<br />
           <strong>당신이 좋아하는 곡</strong>과 함께<br />
-          가만히 읽어내려갈 때<br />
-          가장 깊게 다가옵니다.<br />
+          가만히 읽어내려갈 때 더욱 좋습니다.<br />
+          <br />
+          내용이 길어 보이지 않는 부분은<br />
+          <strong>스크롤</strong>을 내려서 확인해 주세요.<br />
           <br />
           지구에서의 시간을<br />
           즐겁게 감상해 주세요.
